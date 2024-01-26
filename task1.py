@@ -11,3 +11,4 @@ with open('/home/itclass/PycharmProjects/predprof/students.csv', encoding="utf-8
     for row in csv_data:
         if "Хадаров Владимир" in row[1]:
             print(f"Ты получил:{row[4]}, за проект - {row[2]}")
+            print("bebra")
